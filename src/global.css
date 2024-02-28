@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    gap: 350px;
+}
+
+.regilogin{
+    display: flex;
+    gap: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(107, 150, 203);
+    display: flex;
+    align-items: center;
+    border-bottom:5px solid rgb(45, 6, 82) ;
+}
+
+nav p{
+    margin-left: 140px;
+    font-size: 35px;
+}
+
+.crud{
+    color: rgb(171, 74, 38);
+}
+
+.op{
+    color: rgb(45, 6, 82);
+}
+
+.sidebar{
+    display: flex;
+}
+
+.layout{
+    display: flex;
+    background-color:rgb(107, 150, 203);
+    width: 14%;
+    height: 100vh;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.layout ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout ul li a{
+    background-color: rgb(171, 74, 38);
+    color: rgb(45, 6, 82);
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin:0px 10px 10px 0px;
+    
+}
+
+/* css for users table */
+.userBlock{
+    margin: 30px;
+}
+
+.container{
+    padding: 20px;
+    border: 1px solid rgb(123, 121, 121);
+    border-radius: 5px;
+}
+
+.container header{
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: 60rem;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    
+    padding: 10px;
+    border: 1px solid rgb(101, 98, 98);
+    height: 5rem;
+}
+ th{
+    background-color:rgb(215, 161, 141) ;
+    font-weight: 400;
+ }
+
+ .content{
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center;
+    margin: 1rem 20rem;
+ }
+.innerContent h1{
+    padding: 15px;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
+ }
+.innerContent form{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+ .form-group label{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 200;
+    /* background-color: aquamarine; */
+    display: block;
+ }
+
+ .form-group input{
+    width: 100%;
+    border: 1px solid rgb(95, 92, 92);
+    border-radius: 2px;
+    outline: none;
+    padding: 8px;
+ }
+
+ .form-group button{
+    background-color: rgb(45, 6, 82);
+    color: whitesmoke;
+    font-weight: 300;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+ }
+
+ .allusers{
+    display: flex;
+ }
+
+ .users {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.users .list {
+    flex-basis: 24%;
+    background: #fff;
+    border: 1px solid #242121;
+    /* min-height: 50px; */
+    height: 150px;
+    border-radius: 5px;
+    margin: 20px ;
+    padding: 10px;
+    width: 250px;
+}
+
+.list h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--base-btn-color);
+    padding: 10px 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #eee;
+}
+.list p {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 0;
+}
+
+.searchBlock {
+  width: 40%;
+  margin: 10px;
+}
+
+.searchBlock input {
+  background: #fff;
+  /* width: 99%; */
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #423c3c;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.searchIcon {
+  position: relative;
+}
+.searchIcon svg {
+  position: absolute;
+  right: 10px;
+  top: -1px;
+  font-size: 25px;
+  color: #9C27B0;
+  font-weight: 100;
+}
+
+.btn{
+    color: aqua;
+}

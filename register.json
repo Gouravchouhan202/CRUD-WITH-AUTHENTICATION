@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "",
+      "email": "",
+      "password": "",
+      "prof_pic": ""
+    },
+    {
+      "id": "7baa",
+      "email": "Gouravc402@gmail.com",
+      "password": "123321",
+      "prof_pic": "hi"
+    }
+  ]
+}

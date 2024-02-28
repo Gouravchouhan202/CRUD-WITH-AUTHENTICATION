@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "gourav",
+      "salary": "150000",
+      "company": "xyzwe12",
+      "id": "1"
+    },
+    {
+      "id": "cd1f",
+      "name": "preethi tai",
+      "salary": "150000",
+      "company": "xyz"
+    },
+    {
+      "id": "eff2",
+      "name": "Gourav singh Chouhan",
+      "salary": "150000",
+      "company": "1221"
+    },
+    {
+      "id": "fe91",
+      "name": "Gourav singh Chouhan",
+      "salary": "150000",
+      "company": "xyz"
+    }
+  ]
+}
